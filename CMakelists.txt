@@ -82,7 +82,9 @@ endif(WIN32)
 
 # Post build: Copy Resources to bin
 set(ResourcesPath ${CMAKE_CURRENT_SOURCE_DIR}/resources)
+set(AssetsPath ${CMAKE_CURRENT_SOURCE_DIR}/assets)
 add_custom_command(TARGET 1945 POST_BUILD
             COMMAND ${CMAKE_COMMAND} -E cmake_echo_color --cyan "Copy Resources..."
             COMMAND ${CMAKE_COMMAND} -E copy_directory ${ResourcesPath} $<TARGET_FILE_DIR:1945>/resources
+            COMMAND ${CMAKE_COMMAND} -E copy_directory ${AssetsPath} $<TARGET_FILE_DIR:1945>/resources
     )

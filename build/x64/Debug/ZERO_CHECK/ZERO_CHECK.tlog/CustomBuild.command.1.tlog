@@ -1,6 +1,6 @@
-^E:\PROGRAMMAZIONE\AIV\III ANNO\FEDERICO DE FELICI\PROGETTI\1945\BUILD\CMAKEFILES\627FDA8FA001D3B556BEFFA71A4CEEC7\GENERATE.STAMP.RULE
+^E:\PROGRAMMAZIONE\AIV\III ANNO\FEDERICO DE FELICI\PROGETTI\SDL-1945\BUILD\CMAKEFILES\C2AF8D5A9D8935757DD221426470A68E\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945" "-BE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/1945.sln"
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945" "-BE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/1945.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

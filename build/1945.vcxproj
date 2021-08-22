@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FCC450D6-162F-3AB8-BFE9-C131CB759788}</ProjectGuid>
+    <ProjectGuid>{6D5B7F3B-77A2-378B-847B-5AF7995F7A01}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">1945.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">1945</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">1945.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">1945</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">1945.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">1945</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">1945.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">1945</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -102,10 +102,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,7 +115,7 @@
     <PostBuildEvent>
       <Message>																			</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2/lib/x64/SDL2.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2/lib/x64/SDL2.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -124,7 +124,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/SDL2_image.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/SDL2_image.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,7 +133,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -142,7 +142,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libpng16-16.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libpng16-16.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -151,7 +151,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libtiff-5.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libtiff-5.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,7 +160,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libwebp-7.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libwebp-7.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -169,7 +169,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -178,7 +178,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -187,7 +187,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -196,7 +196,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -205,7 +205,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -214,7 +214,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -223,7 +223,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,7 +232,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -241,7 +241,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -250,7 +250,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -259,7 +259,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,7 +268,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -277,7 +277,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -288,7 +288,9 @@ if %errorlevel% neq 0 goto :VCEnd
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E cmake_echo_color --cyan "Copy Resources..."
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/resources" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug/resources"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/resources" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug/resources"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/assets" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug/resources"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -303,8 +305,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug/1945.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Debug/1945.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug/1945.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Debug/1945.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -313,7 +315,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -329,10 +331,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -342,7 +344,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>																			</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2/lib/x64/SDL2.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2/lib/x64/SDL2.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -351,7 +353,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/SDL2_image.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/SDL2_image.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -360,7 +362,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -369,7 +371,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libpng16-16.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libpng16-16.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -378,7 +380,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libtiff-5.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libtiff-5.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -387,7 +389,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libwebp-7.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libwebp-7.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -396,7 +398,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -405,7 +407,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -414,7 +416,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -423,7 +425,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -432,7 +434,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -441,7 +443,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -450,7 +452,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -459,7 +461,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -468,7 +470,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -477,7 +479,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -486,7 +488,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -495,7 +497,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -504,7 +506,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -515,7 +517,9 @@ if %errorlevel% neq 0 goto :VCEnd
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E cmake_echo_color --cyan "Copy Resources..."
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/resources" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release/resources"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/resources" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release/resources"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/assets" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release/resources"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -530,8 +534,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release/1945.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/Release/1945.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release/1945.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/Release/1945.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -540,7 +544,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -556,10 +560,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -569,7 +573,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>																			</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2/lib/x64/SDL2.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2/lib/x64/SDL2.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -578,7 +582,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/SDL2_image.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/SDL2_image.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -587,7 +591,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -596,7 +600,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libpng16-16.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libpng16-16.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -605,7 +609,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libtiff-5.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libtiff-5.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -614,7 +618,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libwebp-7.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libwebp-7.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -623,7 +627,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -632,7 +636,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -641,7 +645,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -650,7 +654,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -659,7 +663,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -668,7 +672,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -677,7 +681,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -686,7 +690,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -695,7 +699,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -704,7 +708,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -713,7 +717,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -722,7 +726,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -731,7 +735,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -742,7 +746,9 @@ if %errorlevel% neq 0 goto :VCEnd
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E cmake_echo_color --cyan "Copy Resources..."
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/resources" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel/resources"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/resources" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel/resources"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/assets" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel/resources"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -757,8 +763,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel/1945.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/MinSizeRel/1945.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel/1945.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/MinSizeRel/1945.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -767,7 +773,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -782,10 +788,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_image\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_ttf\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\sdl2_mixer\include;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -795,7 +801,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>																			</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2/lib/x64/SDL2.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2/lib/x64/SDL2.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -804,7 +810,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/SDL2_image.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/SDL2_image.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -813,7 +819,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libjpeg-9.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -822,7 +828,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libpng16-16.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libpng16-16.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -831,7 +837,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libtiff-5.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libtiff-5.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -840,7 +846,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/libwebp-7.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/libwebp-7.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -849,7 +855,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_image/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_image/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -858,7 +864,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/SDL2_ttf.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -867,7 +873,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/libfreetype-6.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -876,7 +882,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_ttf/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_ttf/lib/x64/zlib1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -885,7 +891,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/SDL2_mixer.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -894,7 +900,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libFLAC-8.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -903,7 +909,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libmodplug-1.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -912,7 +918,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libmpg123-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -921,7 +927,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libogg-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -930,7 +936,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libopus-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -939,7 +945,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libopusfile-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -948,7 +954,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libvorbis-0.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -957,7 +963,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/cmake/sdl2_mixer/lib/x64/libvorbisfile-3.dll" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -968,7 +974,9 @@ if %errorlevel% neq 0 goto :VCEnd
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E cmake_echo_color --cyan "Copy Resources..."
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/resources" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo/resources"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/resources" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo/resources"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/assets" "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo/resources"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -983,8 +991,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo/1945.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/RelWithDebInfo/1945.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo/1945.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/RelWithDebInfo/1945.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -992,11 +1000,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\CMakelists.txt">
+    <CustomBuild Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\CMakelists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945" "-BE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build" --check-stamp-file "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945" "-BE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build" --check-stamp-file "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1004,12 +1012,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeSystem.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2TTF.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2_image.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeSystem.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2TTF.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2_image.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945" "-BE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build" --check-stamp-file "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945" "-BE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build" --check-stamp-file "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1017,12 +1025,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeSystem.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2TTF.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2_image.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeSystem.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2TTF.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2_image.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945" "-BE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build" --check-stamp-file "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945" "-BE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build" --check-stamp-file "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1030,12 +1038,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeSystem.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2TTF.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2_image.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeSystem.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2TTF.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2_image.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945" "-BE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build" --check-stamp-file "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945" "-BE:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build" --check-stamp-file "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1043,29 +1051,29 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\3.19.1\CMakeSystem.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2TTF.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2_image.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\3.19.1\CMakeSystem.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2TTF.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2_image.cmake;E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\cmake\FindSDL2_mixer.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\main.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\common.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\renderer.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\gameobject.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\character.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\inputsystem.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\list.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\bullet.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\enemy.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\ui.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\player.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\physics.c" />
-    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\src\ttf.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\main.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\common.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\renderer.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\gameobject.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\character.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\inputsystem.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\list.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\bullet.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\enemy.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\ui.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\player.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\physics.c" />
+    <ClCompile Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\src\ttf.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\ZERO_CHECK.vcxproj">
-      <Project>{BEAC79C2-F8A7-3CDE-94B3-88E2C57E9433}</Project>
+    <ProjectReference Include="E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\SDL-1945\build\ZERO_CHECK.vcxproj">
+      <Project>{0E48C4C5-ED84-30B3-A9B6-728F0FDF8799}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,4 +1,4 @@
-# Install script for directory: E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945
+# Install script for directory: E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/1945/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Programmazione/AIV/III anno/Federico De Felici/Progetti/SDL-1945/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
