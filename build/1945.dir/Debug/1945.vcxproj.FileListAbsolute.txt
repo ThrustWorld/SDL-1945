@@ -1,0 +1,2 @@
+E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\Debug\SDL2_image.dll
+E:\Programmazione\AIV\III anno\Federico De Felici\Progetti\1945\build\1945.dir\Debug\1945.vcxproj.CopyComplete
